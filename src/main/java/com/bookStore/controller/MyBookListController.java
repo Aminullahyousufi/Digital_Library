@@ -16,6 +16,4 @@ public class MyBookListController {
         service.deleteById(id);
         return "redirect:/my_books";
     }
-
-
 }
